@@ -1,0 +1,21 @@
+D:\Yazilim\Gruplar\yv3 5305\Asp.NET\19.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\Yazilim\Gruplar\yv3 5305\Asp.NET\19.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\Yazilim\Gruplar\yv3 5305\Asp.NET\19.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\Yazilim\Gruplar\yv3 5305\Asp.NET\19.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Yazilim\Gruplar\yv3 5305\Asp.NET\19.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Yazilim\Gruplar\yv3 5305\Asp.NET\19.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\Core.dll
+D:\Yazilim\Gruplar\yv3 5305\Asp.NET\19.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\Core.pdb
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\Core.dll
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\Core.pdb
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\yahya\Desktop\Yeni klasör (2)\WebApplication1\bin\WebApplication1.dll
+C:\Users\yahya\Desktop\Yeni klasör (2)\WebApplication1\bin\WebApplication1.pdb
+C:\Users\yahya\Desktop\Yeni klasör (2)\WebApplication1\bin\Core.dll
+C:\Users\yahya\Desktop\Yeni klasör (2)\WebApplication1\bin\Core.pdb
+C:\Users\yahya\Desktop\Yeni klasör (2)\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yahya\Desktop\Yeni klasör (2)\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\yahya\Desktop\Yeni klasör (2)\WebApplication1\obj\Debug\WebApplication1.pdb

@@ -1,0 +1,10 @@
+C:\Users\yahya\Desktop\Dükkan projesi\Dükkan projesi\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yahya\Desktop\Dükkan projesi\Dükkan projesi\bin\Dükkan projesi.dll
+C:\Users\yahya\Desktop\Dükkan projesi\Dükkan projesi\bin\Dükkan projesi.pdb
+C:\Users\yahya\Desktop\Dükkan projesi\Dükkan projesi\obj\Debug\Dükkan projesi.dll
+C:\Users\yahya\Desktop\Dükkan projesi\Dükkan projesi\obj\Debug\Dükkan projesi.pdb
+C:\Masaüstü Kısayol İçeriği\Dükkan projesi\Dükkan projesi\bin\Dükkan projesi.dll
+C:\Masaüstü Kısayol İçeriği\Dükkan projesi\Dükkan projesi\bin\Dükkan projesi.pdb
+C:\Masaüstü Kısayol İçeriği\Dükkan projesi\Dükkan projesi\obj\Debug\ResolveAssemblyReference.cache
+C:\Masaüstü Kısayol İçeriği\Dükkan projesi\Dükkan projesi\obj\Debug\Dükkan projesi.dll
+C:\Masaüstü Kısayol İçeriği\Dükkan projesi\Dükkan projesi\obj\Debug\Dükkan projesi.pdb

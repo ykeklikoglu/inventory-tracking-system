@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1263D81-3299-4F7C-9C09-F716A09195FA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dükkan_projesi</RootNamespace>
+    <AssemblyName>Dükkan projesi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Kategoriler.xml" />
+    <Content Include="App_Data\Kullanicilar.xml" />
+    <Content Include="App_Data\Siparisler.xml" />
+    <Content Include="App_Data\Urunler.xml" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Yönetim\SepeteEkle.aspx" />
+    <Content Include="Yönetim\Sistem\Siparişler.aspx" />
+    <Content Include="İmages\ButtonSale.jpg" />
+    <Content Include="İmages\cancel_icon.jpg" />
+    <Content Include="İmages\Check.png" />
+    <Content Include="İmages\document.png" />
+    <Content Include="İmages\Ekran Alıntısı.GIF" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Yönetim\Giriş\Login.aspx" />
+    <Content Include="Yönetim\Sepetim.aspx" />
+    <Content Include="Yönetim\Sistem\Masaüstü.aspx" />
+    <Content Include="Yönetim\Sistem\Satıs.aspx" />
+    <Content Include="İmages\selectIcon.jpg" />
+    <Content Include="İmages\Shopping.png" />
+    <Content Include="İmages\İncele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MasterPages\Train.Master.cs">
+      <DependentUpon>Train.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Train.Master.designer.cs">
+      <DependentUpon>Train.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Model\MusteriBilgileri.cs" />
+    <Compile Include="Model\Person.cs" />
+    <Compile Include="Model\Satıs.cs" />
+    <Compile Include="Model\SipariseKalan.cs" />
+    <Compile Include="Model\Urun.cs" />
+    <Compile Include="Model\Siparis.cs" />
+    <Compile Include="Model\UrunVeSiparis.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQL\MusteriIslemleri.cs" />
+    <Compile Include="SQL\PersonelIsleri.cs" />
+    <Compile Include="SQL\SepetServis.cs" />
+    <Compile Include="SQL\Siparisİsleri.cs" />
+    <Compile Include="SQL\SqlBaglantı.cs" />
+    <Compile Include="SQL\SqlTanımı.cs" />
+    <Compile Include="SQL\Stokİslemleri.cs" />
+    <Compile Include="SQL\UrunServis.cs" />
+    <Compile Include="Yönetim\Giriş\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yönetim\Giriş\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetim\SepeteEkle.aspx.cs">
+      <DependentUpon>SepeteEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yönetim\SepeteEkle.aspx.designer.cs">
+      <DependentUpon>SepeteEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetim\Sepetim.aspx.cs">
+      <DependentUpon>Sepetim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yönetim\Sepetim.aspx.designer.cs">
+      <DependentUpon>Sepetim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetim\Sistem\Masaüstü.aspx.cs">
+      <DependentUpon>Masaüstü.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yönetim\Sistem\Masaüstü.aspx.designer.cs">
+      <DependentUpon>Masaüstü.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetim\Sistem\Satıs.aspx.cs">
+      <DependentUpon>Satıs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yönetim\Sistem\Satıs.aspx.designer.cs">
+      <DependentUpon>Satıs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetim\Sistem\Siparişler.aspx.cs">
+      <DependentUpon>Siparişler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yönetim\Sistem\Siparişler.aspx.designer.cs">
+      <DependentUpon>Siparişler.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Train.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49295</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

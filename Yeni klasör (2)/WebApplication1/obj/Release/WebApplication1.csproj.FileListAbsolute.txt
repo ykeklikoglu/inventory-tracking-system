@@ -1,0 +1,7 @@
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\Core.dll
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\bin\Core.pdb
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Release\ResolveAssemblyReference.cache
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Release\WebApplication1.dll
+D:\Yazilim\Gruplar\yv3 5403\Asp.NET\10.)AlisVerisSepeti\WebApplication1\WebApplication1\obj\Release\WebApplication1.pdb

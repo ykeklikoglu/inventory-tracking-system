@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Train.master.cs" Inherits="Dükkan_projesi.MasterPages.Train" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            width: 98%;
+            height: 182px;
+        }
+        .style3
+        {
+            width: 391px;
+            background-color: #014051;
+            height: 150px;
+        }
+        .style4
+        {
+            width: 377px;
+            background-color: #014051;
+            height: 150px;
+        }
+        .style6
+        {
+            background-color: #014051;
+            height: 150px;
+        }
+        .style9
+        {
+            font-size: x-large;
+            color: #FFFFFF;
+        }
+        .style10
+        {
+            width: 193px;
+            height: 101px;
+        }
+        </style>
+</head>
+<body style="height: 197px; width: 1215px; background-color: #293955;">
+<form id="form1" runat="server">
+    <div style="text-align: center">
+        <table class="style2">
+            <tr>
+                <td align="center" class="style3">
+                            <div class="DodatkiWww-Zegar DodatkiWww" data-locale="en_US" data-v="1" 
+                                data-hash-v="1" data-hash="1876fa9469497e6e42af3e3743d2703e" data-typ="4" 
+                                style="width:309px; height:92px;" ><a href="http://noclegizakopane.org">Zakopane noclegi</a></div><script src="http://mapanastrone.net/jsm/manager"></script><script>                                                                                                                                                                                                                                                                                                                                               DodatkiWww.Core.LoadModules("Clock");</script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </td>
+                <td class="style4">
+    <div style="text-align: center; width: 323px; margin-left: 0px;">
+        <br />
+        <img alt="" class="style10" src="../İmages/Ekran%20Alıntısı.GIF" /><br />
+        <p align="center"> <span class="style9">Hoşgeldin 
+            </span> 
+            <asp:Label ID="LoginOlanKisi" runat="server" Text="Label" CssClass="style9"></asp:Label>
+        </p>
+    </div>
+                </td>
+                <td align="center" class="style6">
+                    <asp:Calendar ID="Calendar1" runat="server" BackColor="#293955" 
+                        BorderColor="White" BorderWidth="1px" Font-Names="Verdana" Font-Size="9pt" 
+                        ForeColor="White" Height="176px" NextPrevFormat="FullMonth" 
+                        SelectedDate="2012-06-10" Width="208px" BorderStyle="Solid">
+                        <DayHeaderStyle Font-Bold="True" Font-Size="8pt" />
+                        <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" 
+                            VerticalAlign="Bottom" />
+                        <OtherMonthDayStyle ForeColor="#999999" />
+                        <SelectedDayStyle BackColor="#333399" ForeColor="White" />
+                        <TitleStyle BackColor="White" BorderColor="Black" BorderWidth="4px" 
+                            Font-Bold="True" Font-Size="12pt" ForeColor="#333399" />
+                        <TodayDayStyle BackColor="#CCCCCC" />
+                    </asp:Calendar>
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kullanicilar>
+  <Kullanici KullaniciID="96a6ba09-3004-453b-bcaf-451a26287095">
+    <KullaniciAdi>slmysl</KullaniciAdi>
+    <Sifre>10A07CDB61A9A8B27B7104CF5EC97EB5FA5B4D20</Sifre>
+    <Email>selim@selimuysal.com</Email>
+    <Role>Uye</Role>
+  </Kullanici>
+  <Kullanici KullaniciID="26417a44-f2ec-4955-8f20-1a6db6fef430">
+    <KullaniciAdi>sinan</KullaniciAdi>
+    <Sifre>7C4A8D09CA3762AF61E59520943DC26494F8941B</Sifre>
+    <Email>sinanbaransb@hotmail.com</Email>
+    <Role>Admin</Role>
+  </Kullanici>
+  <Kullanici KullaniciID="8cc35aa6-a9eb-4e41-8b9a-5cdcd0072d72">
+    <KullaniciAdi>burhan</KullaniciAdi>
+    <Sifre>40BD001563085FC35165329EA1FF5C5ECBDBBEEF</Sifre>
+    <Email>burhan_erkent@hotmail.com</Email>
+    <Role>Uye</Role>
+  </Kullanici>
+  <Kullanici KullaniciID="b507900b-2634-4030-90b9-667dc2548ac8">
+    <KullaniciAdi>burhan</KullaniciAdi>
+    <Sifre>40BD001563085FC35165329EA1FF5C5ECBDBBEEF</Sifre>
+    <Email>burhan_erkent@hotmail.com</Email>
+    <Role>Uye</Role>
+  </Kullanici>
+  <Kullanici KullaniciID="0cc00c5f-7318-4f0f-a664-5a8519b32247">
+    <KullaniciAdi>cemonal</KullaniciAdi>
+    <Sifre>7C4A8D09CA3762AF61E59520943DC26494F8941B</Sifre>
+    <Email>onalcem@gmail.com</Email>
+    <Role>Uye</Role>
+  </Kullanici>
+  <Kullanici KullaniciID="555e8369-befe-4e3e-9537-0442ba59315a">
+    <KullaniciAdi>sinan</KullaniciAdi>
+    <Sifre>356A192B7913B04C54574D18C28D46E6395428AB</Sifre>
+    <Email>sinanbaransb@hotmail.com</Email>
+    <Role>Uye</Role>
+  </Kullanici>
+</Kullanicilar>

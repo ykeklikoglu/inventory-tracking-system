@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siparisler>
+  <Siparis SiparisID="de9ae3cd-4e24-44e6-990b-640c7052fe97">
+    <MusteriID>1</MusteriID>
+    <SiparisTarihi>2010-08-29T15:46:16.3904016+03:00</SiparisTarihi>
+    <Urunler>
+      <UrunID TalepMiktar="1">bed783e9-3ee2-4efa-957c-265e6c9da100</UrunID>
+      <UrunID TalepMiktar="4">22214644-b15e-40ed-a3df-980ba2d7afc9</UrunID>
+    </Urunler>
+  </Siparis>
+  <Siparis SiparisID="64cf071c-9cbc-4c29-81fa-60537d8fe66a">
+    <MusteriID>1</MusteriID>
+    <SiparisTarihi>2010-08-31T09:11:18.8851479+03:00</SiparisTarihi>
+    <Urunler>
+      <UrunID TalepMiktar="5">ab656684-b243-4c1d-913e-f0fae689ba2e</UrunID>
+      <UrunID TalepMiktar="4">bed783e9-3ee2-4efa-957c-265e6c9da100</UrunID>
+      <UrunID TalepMiktar="1">848e6e09-bf20-4831-9182-b2c1e15034b4</UrunID>
+    </Urunler>
+  </Siparis>
+  <Siparis SiparisID="82faaa8a-1bf0-4eca-a493-2bc7a0d47026">
+    <MusteriID>1</MusteriID>
+    <SiparisTarihi>2010-09-02T17:59:51.0729218+03:00</SiparisTarihi>
+    <Urunler>
+      <UrunID TalepMiktar="6">ab656684-b243-4c1d-913e-f0fae689ba2e</UrunID>
+      <UrunID TalepMiktar="2">22214644-b15e-40ed-a3df-980ba2d7afc9</UrunID>
+    </Urunler>
+  </Siparis>
+</Siparisler>
